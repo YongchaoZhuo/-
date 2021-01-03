@@ -1,0 +1,539 @@
+!SESSION 2020-12-22 10:13:52.792 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2020-12-22 10:14:36.047
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-12-22 10:14:36.047
+!MESSAGE A conflict occurred for CTRL+F9:
+Binding(CTRL+F9,
+	ParameterizedCommand(Command(org.eclipse.mylyn.tasks.ui.command.activateTask,Activate Task,
+		,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@40284002,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+F9,
+	ParameterizedCommand(Command(RunSQLAction,Run SQL,
+		Run SQL,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@12826436,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.genuitec.eclipse.core 1 0 2020-12-22 10:14:54.198
+!MESSAGE Unable to locate .myeclipse.properties file
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-12-22 10:14:56.384
+!MESSAGE Unable to update index for central|http://repo.maven.apache.org/maven2
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2020-12-22 10:15:06.423
+!MESSAGE Installed snippet library: D:\Java\configuration\org.eclipse.osgi\bundles\147\1\.cp\snippets\html\css_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2020-12-22 10:15:06.474
+!MESSAGE Installed snippet library: D:\Java\configuration\org.eclipse.osgi\bundles\147\1\.cp\snippets\html\forms_lists_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2020-12-22 10:15:06.507
+!MESSAGE Installed snippet library: D:\Java\configuration\org.eclipse.osgi\bundles\147\1\.cp\snippets\html\htmlform_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2020-12-22 10:15:06.546
+!MESSAGE Installed snippet library: D:\Java\configuration\org.eclipse.osgi\bundles\147\1\.cp\snippets\html\html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2020-12-22 10:15:06.633
+!MESSAGE Installed snippet library: D:\Java\configuration\org.eclipse.osgi\bundles\147\1\.cp\snippets\html\javascript_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2020-12-22 10:15:06.672
+!MESSAGE Installed snippet library: D:\Java\configuration\org.eclipse.osgi\bundles\147\1\.cp\snippets\jsp\jsf_f_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2020-12-22 10:15:06.717
+!MESSAGE Installed snippet library: D:\Java\configuration\org.eclipse.osgi\bundles\147\1\.cp\snippets\jsp\jsf_h_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2020-12-22 10:15:06.756
+!MESSAGE Installed snippet library: D:\Java\configuration\org.eclipse.osgi\bundles\147\1\.cp\snippets\jsp\struts_bean_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2020-12-22 10:15:06.820
+!MESSAGE Installed snippet library: D:\Java\configuration\org.eclipse.osgi\bundles\147\1\.cp\snippets\jsp\struts_html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2020-12-22 10:15:06.867
+!MESSAGE Installed snippet library: D:\Java\configuration\org.eclipse.osgi\bundles\147\1\.cp\snippets\jsp\struts_logic_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2020-12-22 10:15:06.913
+!MESSAGE Installed snippet library: D:\Java\configuration\org.eclipse.osgi\bundles\147\1\.cp\snippets\jsp\struts_tiles_snippets.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:07.025
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:07.038
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.3.1: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:07.054
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-deploy-plugin:2.7: Plugin org.apache.maven.plugins:maven-deploy-plugin:2.7 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-deploy-plugin:jar:2.7
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:07.065
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-site-plugin:3.0: Plugin org.apache.maven.plugins:maven-site-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-site-plugin:jar:3.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:07.077
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-antrun-plugin:1.3: Plugin org.apache.maven.plugins:maven-antrun-plugin:1.3 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-antrun-plugin:jar:1.3
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:07.091
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5: Plugin org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:07.103
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:2.1: Plugin org.apache.maven.plugins:maven-dependency-plugin:2.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-dependency-plugin:jar:2.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:07.117
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-release-plugin:2.0: Plugin org.apache.maven.plugins:maven-release-plugin:2.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-release-plugin:jar:2.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:07.136
+!MESSAGE Failure to transfer org.apache.maven.plugins/maven-metadata.xml from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins/maven-metadata.xml from/to central (http://repo.maven.apache.org/maven2): Failed to transfer http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml. Error code 501, HTTPS Required
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:07.149
+!MESSAGE Failure to transfer org.codehaus.mojo/maven-metadata.xml from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer metadata org.codehaus.mojo/maven-metadata.xml from/to central (http://repo.maven.apache.org/maven2): Failed to transfer http://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml. Error code 501, HTTPS Required
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:07.739
+!MESSAGE Could not transfer metadata org.apache.maven.plugins/maven-metadata.xml from/to central (http://repo.maven.apache.org/maven2): Failed to transfer http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml. Error code 501, HTTPS Required
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:07.740
+!MESSAGE Could not transfer metadata org.codehaus.mojo/maven-metadata.xml from/to central (http://repo.maven.apache.org/maven2): Failed to transfer http://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml. Error code 501, HTTPS Required
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2020-12-22 10:15:07.742
+!MESSAGE Execution errororg.apache.maven.plugin.prefix.NoPluginFoundForPrefixException: No plugin found for prefix 'install' in the current project and in the plugin groups [org.apache.maven.plugins, org.codehaus.mojo] available from the repositories [local (C:\Users\25860\.m2\repository), central (http://repo.maven.apache.org/maven2)]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:07.784
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:07.787
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.3.1: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:07.790
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-deploy-plugin:2.7: Plugin org.apache.maven.plugins:maven-deploy-plugin:2.7 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-deploy-plugin:jar:2.7
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:07.793
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-site-plugin:3.0: Plugin org.apache.maven.plugins:maven-site-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-site-plugin:jar:3.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:07.797
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-antrun-plugin:1.3: Plugin org.apache.maven.plugins:maven-antrun-plugin:1.3 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-antrun-plugin:jar:1.3
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:07.800
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5: Plugin org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:07.803
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:2.1: Plugin org.apache.maven.plugins:maven-dependency-plugin:2.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-dependency-plugin:jar:2.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:07.806
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-release-plugin:2.0: Plugin org.apache.maven.plugins:maven-release-plugin:2.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-release-plugin:jar:2.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:07.819
+!MESSAGE Failure to transfer org.apache.maven.plugins/maven-metadata.xml from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins/maven-metadata.xml from/to central (http://repo.maven.apache.org/maven2): Failed to transfer http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml. Error code 501, HTTPS Required
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:07.830
+!MESSAGE Failure to transfer org.codehaus.mojo/maven-metadata.xml from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer metadata org.codehaus.mojo/maven-metadata.xml from/to central (http://repo.maven.apache.org/maven2): Failed to transfer http://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml. Error code 501, HTTPS Required
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:08.348
+!MESSAGE Could not transfer metadata org.apache.maven.plugins/maven-metadata.xml from/to central (http://repo.maven.apache.org/maven2): Failed to transfer http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml. Error code 501, HTTPS Required
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:08.350
+!MESSAGE Could not transfer metadata org.codehaus.mojo/maven-metadata.xml from/to central (http://repo.maven.apache.org/maven2): Failed to transfer http://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml. Error code 501, HTTPS Required
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2020-12-22 10:15:08.351
+!MESSAGE Execution errororg.apache.maven.plugin.prefix.NoPluginFoundForPrefixException: No plugin found for prefix 'install' in the current project and in the plugin groups [org.apache.maven.plugins, org.codehaus.mojo] available from the repositories [local (C:\Users\25860\.m2\repository), central (http://repo.maven.apache.org/maven2)]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:08.382
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:08.385
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.3.1: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:08.387
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-deploy-plugin:2.7: Plugin org.apache.maven.plugins:maven-deploy-plugin:2.7 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-deploy-plugin:jar:2.7
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:08.389
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-site-plugin:3.0: Plugin org.apache.maven.plugins:maven-site-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-site-plugin:jar:3.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:08.392
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-antrun-plugin:1.3: Plugin org.apache.maven.plugins:maven-antrun-plugin:1.3 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-antrun-plugin:jar:1.3
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:08.396
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5: Plugin org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:08.398
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:2.1: Plugin org.apache.maven.plugins:maven-dependency-plugin:2.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-dependency-plugin:jar:2.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:08.401
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-release-plugin:2.0: Plugin org.apache.maven.plugins:maven-release-plugin:2.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-release-plugin:jar:2.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:08.411
+!MESSAGE Failure to transfer org.apache.maven.plugins/maven-metadata.xml from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins/maven-metadata.xml from/to central (http://repo.maven.apache.org/maven2): Failed to transfer http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml. Error code 501, HTTPS Required
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:08.422
+!MESSAGE Failure to transfer org.codehaus.mojo/maven-metadata.xml from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer metadata org.codehaus.mojo/maven-metadata.xml from/to central (http://repo.maven.apache.org/maven2): Failed to transfer http://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml. Error code 501, HTTPS Required
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:08.931
+!MESSAGE Could not transfer metadata org.apache.maven.plugins/maven-metadata.xml from/to central (http://repo.maven.apache.org/maven2): Failed to transfer http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml. Error code 501, HTTPS Required
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:08.934
+!MESSAGE Could not transfer metadata org.codehaus.mojo/maven-metadata.xml from/to central (http://repo.maven.apache.org/maven2): Failed to transfer http://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml. Error code 501, HTTPS Required
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2020-12-22 10:15:08.935
+!MESSAGE Execution errororg.apache.maven.plugin.prefix.NoPluginFoundForPrefixException: No plugin found for prefix 'install' in the current project and in the plugin groups [org.apache.maven.plugins, org.codehaus.mojo] available from the repositories [local (C:\Users\25860\.m2\repository), central (http://repo.maven.apache.org/maven2)]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:08.990
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:08.994
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.3.1: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:08.997
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-deploy-plugin:2.7: Plugin org.apache.maven.plugins:maven-deploy-plugin:2.7 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-deploy-plugin:jar:2.7
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:09.000
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-site-plugin:3.0: Plugin org.apache.maven.plugins:maven-site-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-site-plugin:jar:3.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:09.005
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-antrun-plugin:1.3: Plugin org.apache.maven.plugins:maven-antrun-plugin:1.3 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-antrun-plugin:jar:1.3
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:09.009
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5: Plugin org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:09.013
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:2.1: Plugin org.apache.maven.plugins:maven-dependency-plugin:2.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-dependency-plugin:jar:2.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:09.017
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-release-plugin:2.0: Plugin org.apache.maven.plugins:maven-release-plugin:2.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-release-plugin:jar:2.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:09.032
+!MESSAGE Failure to transfer org.apache.maven.plugins/maven-metadata.xml from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins/maven-metadata.xml from/to central (http://repo.maven.apache.org/maven2): Failed to transfer http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml. Error code 501, HTTPS Required
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:09.049
+!MESSAGE Failure to transfer org.codehaus.mojo/maven-metadata.xml from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer metadata org.codehaus.mojo/maven-metadata.xml from/to central (http://repo.maven.apache.org/maven2): Failed to transfer http://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml. Error code 501, HTTPS Required
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 0 0 2020-12-22 10:15:09.948
+!MESSAGE Result of converting legacy STS 2.x workspace preferences to 3.x
+!SUBENTRY 1 org.springsource.ide.eclipse.commons.frameworks.core 0 0 2020-12-22 10:15:09.948
+!MESSAGE Converted legacy STS plugin preferences
+!SUBENTRY 1 unknown 0 0 2020-12-22 10:15:09.948
+!MESSAGE OK
+!SUBENTRY 1 org.springsource.ide.eclipse.commons.frameworks.core 0 0 2020-12-22 10:15:09.948
+!MESSAGE Converted legacy Roo plugin state locations
+!SUBENTRY 1 org.springsource.ide.eclipse.commons.frameworks.core 0 0 2020-12-22 10:15:09.948
+!MESSAGE Converted legacy STS plugin state locations
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:10.816
+!MESSAGE Could not transfer metadata org.apache.maven.plugins/maven-metadata.xml from/to central (http://repo.maven.apache.org/maven2): Failed to transfer http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml. Error code 501, HTTPS Required
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:10.818
+!MESSAGE Could not transfer metadata org.codehaus.mojo/maven-metadata.xml from/to central (http://repo.maven.apache.org/maven2): Failed to transfer http://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml. Error code 501, HTTPS Required
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2020-12-22 10:15:10.819
+!MESSAGE Execution errororg.apache.maven.plugin.prefix.NoPluginFoundForPrefixException: No plugin found for prefix 'install' in the current project and in the plugin groups [org.apache.maven.plugins, org.codehaus.mojo] available from the repositories [local (C:\Users\25860\.m2\repository), central (http://repo.maven.apache.org/maven2)]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:10.876
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:10.881
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.3.1: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:10.885
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-deploy-plugin:2.7: Plugin org.apache.maven.plugins:maven-deploy-plugin:2.7 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-deploy-plugin:jar:2.7
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:10.889
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-site-plugin:3.0: Plugin org.apache.maven.plugins:maven-site-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-site-plugin:jar:3.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:10.892
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-antrun-plugin:1.3: Plugin org.apache.maven.plugins:maven-antrun-plugin:1.3 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-antrun-plugin:jar:1.3
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:10.896
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5: Plugin org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:10.900
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:2.1: Plugin org.apache.maven.plugins:maven-dependency-plugin:2.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-dependency-plugin:jar:2.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:10.903
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-release-plugin:2.0: Plugin org.apache.maven.plugins:maven-release-plugin:2.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-release-plugin:jar:2.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:10.921
+!MESSAGE Failure to transfer org.apache.maven.plugins/maven-metadata.xml from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins/maven-metadata.xml from/to central (http://repo.maven.apache.org/maven2): Failed to transfer http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml. Error code 501, HTTPS Required
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:10.937
+!MESSAGE Failure to transfer org.codehaus.mojo/maven-metadata.xml from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer metadata org.codehaus.mojo/maven-metadata.xml from/to central (http://repo.maven.apache.org/maven2): Failed to transfer http://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml. Error code 501, HTTPS Required
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:12.713
+!MESSAGE Could not transfer metadata org.apache.maven.plugins/maven-metadata.xml from/to central (http://repo.maven.apache.org/maven2): Failed to transfer http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml. Error code 501, HTTPS Required
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:12.716
+!MESSAGE Could not transfer metadata org.codehaus.mojo/maven-metadata.xml from/to central (http://repo.maven.apache.org/maven2): Failed to transfer http://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml. Error code 501, HTTPS Required
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2020-12-22 10:15:12.717
+!MESSAGE Execution errororg.apache.maven.plugin.prefix.NoPluginFoundForPrefixException: No plugin found for prefix 'install' in the current project and in the plugin groups [org.apache.maven.plugins, org.codehaus.mojo] available from the repositories [local (C:\Users\25860\.m2\repository), central (http://repo.maven.apache.org/maven2)]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:12.794
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:12.799
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.3.1: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:12.804
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-deploy-plugin:2.7: Plugin org.apache.maven.plugins:maven-deploy-plugin:2.7 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-deploy-plugin:jar:2.7
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:12.808
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-site-plugin:3.0: Plugin org.apache.maven.plugins:maven-site-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-site-plugin:jar:3.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:12.812
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-antrun-plugin:1.3: Plugin org.apache.maven.plugins:maven-antrun-plugin:1.3 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-antrun-plugin:jar:1.3
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:12.816
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5: Plugin org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:12.819
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:2.1: Plugin org.apache.maven.plugins:maven-dependency-plugin:2.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-dependency-plugin:jar:2.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:12.823
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-release-plugin:2.0: Plugin org.apache.maven.plugins:maven-release-plugin:2.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-release-plugin:jar:2.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:12.836
+!MESSAGE Failure to transfer org.apache.maven.plugins/maven-metadata.xml from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins/maven-metadata.xml from/to central (http://repo.maven.apache.org/maven2): Failed to transfer http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml. Error code 501, HTTPS Required
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:12.849
+!MESSAGE Failure to transfer org.codehaus.mojo/maven-metadata.xml from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer metadata org.codehaus.mojo/maven-metadata.xml from/to central (http://repo.maven.apache.org/maven2): Failed to transfer http://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml. Error code 501, HTTPS Required
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:14.388
+!MESSAGE Could not transfer metadata org.apache.maven.plugins/maven-metadata.xml from/to central (http://repo.maven.apache.org/maven2): Failed to transfer http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml. Error code 501, HTTPS Required
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:14.389
+!MESSAGE Could not transfer metadata org.codehaus.mojo/maven-metadata.xml from/to central (http://repo.maven.apache.org/maven2): Failed to transfer http://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml. Error code 501, HTTPS Required
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2020-12-22 10:15:14.391
+!MESSAGE Execution errororg.apache.maven.plugin.prefix.NoPluginFoundForPrefixException: No plugin found for prefix 'install' in the current project and in the plugin groups [org.apache.maven.plugins, org.codehaus.mojo] available from the repositories [local (C:\Users\25860\.m2\repository), central (http://repo.maven.apache.org/maven2)]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:14.449
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:14.453
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.3.1: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:14.458
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-deploy-plugin:2.7: Plugin org.apache.maven.plugins:maven-deploy-plugin:2.7 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-deploy-plugin:jar:2.7
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:14.462
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-site-plugin:3.0: Plugin org.apache.maven.plugins:maven-site-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-site-plugin:jar:3.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:14.466
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-antrun-plugin:1.3: Plugin org.apache.maven.plugins:maven-antrun-plugin:1.3 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-antrun-plugin:jar:1.3
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:14.470
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5: Plugin org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:14.474
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:2.1: Plugin org.apache.maven.plugins:maven-dependency-plugin:2.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-dependency-plugin:jar:2.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:14.478
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-release-plugin:2.0: Plugin org.apache.maven.plugins:maven-release-plugin:2.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-release-plugin:jar:2.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:14.495
+!MESSAGE Failure to transfer org.apache.maven.plugins/maven-metadata.xml from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins/maven-metadata.xml from/to central (http://repo.maven.apache.org/maven2): Failed to transfer http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml. Error code 501, HTTPS Required
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:14.510
+!MESSAGE Failure to transfer org.codehaus.mojo/maven-metadata.xml from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer metadata org.codehaus.mojo/maven-metadata.xml from/to central (http://repo.maven.apache.org/maven2): Failed to transfer http://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml. Error code 501, HTTPS Required
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:16.920
+!MESSAGE Could not transfer metadata org.apache.maven.plugins/maven-metadata.xml from/to central (http://repo.maven.apache.org/maven2): Failed to transfer http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml. Error code 501, HTTPS Required
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:16.922
+!MESSAGE Could not transfer metadata org.codehaus.mojo/maven-metadata.xml from/to central (http://repo.maven.apache.org/maven2): Failed to transfer http://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml. Error code 501, HTTPS Required
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2020-12-22 10:15:16.923
+!MESSAGE Execution errororg.apache.maven.plugin.prefix.NoPluginFoundForPrefixException: No plugin found for prefix 'install' in the current project and in the plugin groups [org.apache.maven.plugins, org.codehaus.mojo] available from the repositories [local (C:\Users\25860\.m2\repository), central (http://repo.maven.apache.org/maven2)]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:16.980
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:16.985
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.3.1: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:16.989
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-deploy-plugin:2.7: Plugin org.apache.maven.plugins:maven-deploy-plugin:2.7 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-deploy-plugin:jar:2.7
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:16.993
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-site-plugin:3.0: Plugin org.apache.maven.plugins:maven-site-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-site-plugin:jar:3.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:16.996
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-antrun-plugin:1.3: Plugin org.apache.maven.plugins:maven-antrun-plugin:1.3 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-antrun-plugin:jar:1.3
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:17.000
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5: Plugin org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:17.004
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:2.1: Plugin org.apache.maven.plugins:maven-dependency-plugin:2.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-dependency-plugin:jar:2.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:17.007
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-release-plugin:2.0: Plugin org.apache.maven.plugins:maven-release-plugin:2.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-release-plugin:jar:2.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:17.025
+!MESSAGE Failure to transfer org.apache.maven.plugins/maven-metadata.xml from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins/maven-metadata.xml from/to central (http://repo.maven.apache.org/maven2): Failed to transfer http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml. Error code 501, HTTPS Required
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:17.041
+!MESSAGE Failure to transfer org.codehaus.mojo/maven-metadata.xml from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer metadata org.codehaus.mojo/maven-metadata.xml from/to central (http://repo.maven.apache.org/maven2): Failed to transfer http://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml. Error code 501, HTTPS Required
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:17.647
+!MESSAGE Could not transfer metadata org.apache.maven.plugins/maven-metadata.xml from/to central (http://repo.maven.apache.org/maven2): Failed to transfer http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml. Error code 501, HTTPS Required
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:17.648
+!MESSAGE Could not transfer metadata org.codehaus.mojo/maven-metadata.xml from/to central (http://repo.maven.apache.org/maven2): Failed to transfer http://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml. Error code 501, HTTPS Required
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2020-12-22 10:15:17.649
+!MESSAGE Execution errororg.apache.maven.plugin.prefix.NoPluginFoundForPrefixException: No plugin found for prefix 'install' in the current project and in the plugin groups [org.apache.maven.plugins, org.codehaus.mojo] available from the repositories [local (C:\Users\25860\.m2\repository), central (http://repo.maven.apache.org/maven2)]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:17.700
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:17.705
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.3.1: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:17.710
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-deploy-plugin:2.7: Plugin org.apache.maven.plugins:maven-deploy-plugin:2.7 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-deploy-plugin:jar:2.7
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:17.714
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-site-plugin:3.0: Plugin org.apache.maven.plugins:maven-site-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-site-plugin:jar:3.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:17.717
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-antrun-plugin:1.3: Plugin org.apache.maven.plugins:maven-antrun-plugin:1.3 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-antrun-plugin:jar:1.3
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:17.721
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5: Plugin org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:17.725
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:2.1: Plugin org.apache.maven.plugins:maven-dependency-plugin:2.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-dependency-plugin:jar:2.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:17.729
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-release-plugin:2.0: Plugin org.apache.maven.plugins:maven-release-plugin:2.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-release-plugin:jar:2.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:17.744
+!MESSAGE Failure to transfer org.apache.maven.plugins/maven-metadata.xml from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins/maven-metadata.xml from/to central (http://repo.maven.apache.org/maven2): Failed to transfer http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml. Error code 501, HTTPS Required
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:17.759
+!MESSAGE Failure to transfer org.codehaus.mojo/maven-metadata.xml from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer metadata org.codehaus.mojo/maven-metadata.xml from/to central (http://repo.maven.apache.org/maven2): Failed to transfer http://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml. Error code 501, HTTPS Required
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:20.063
+!MESSAGE Could not transfer metadata org.apache.maven.plugins/maven-metadata.xml from/to central (http://repo.maven.apache.org/maven2): Failed to transfer http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml. Error code 501, HTTPS Required
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:20.064
+!MESSAGE Could not transfer metadata org.codehaus.mojo/maven-metadata.xml from/to central (http://repo.maven.apache.org/maven2): Failed to transfer http://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml. Error code 501, HTTPS Required
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2020-12-22 10:15:20.065
+!MESSAGE Execution errororg.apache.maven.plugin.prefix.NoPluginFoundForPrefixException: No plugin found for prefix 'install' in the current project and in the plugin groups [org.apache.maven.plugins, org.codehaus.mojo] available from the repositories [local (C:\Users\25860\.m2\repository), central (http://repo.maven.apache.org/maven2)]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:20.120
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:20.124
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.3.1: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:20.128
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-deploy-plugin:2.7: Plugin org.apache.maven.plugins:maven-deploy-plugin:2.7 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-deploy-plugin:jar:2.7
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:20.133
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-site-plugin:3.0: Plugin org.apache.maven.plugins:maven-site-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-site-plugin:jar:3.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:20.136
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-antrun-plugin:1.3: Plugin org.apache.maven.plugins:maven-antrun-plugin:1.3 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-antrun-plugin:jar:1.3
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:20.141
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5: Plugin org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:20.144
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:2.1: Plugin org.apache.maven.plugins:maven-dependency-plugin:2.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-dependency-plugin:jar:2.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:20.148
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-release-plugin:2.0: Plugin org.apache.maven.plugins:maven-release-plugin:2.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-release-plugin:jar:2.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:20.163
+!MESSAGE Failure to transfer org.apache.maven.plugins/maven-metadata.xml from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins/maven-metadata.xml from/to central (http://repo.maven.apache.org/maven2): Failed to transfer http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml. Error code 501, HTTPS Required
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:20.180
+!MESSAGE Failure to transfer org.codehaus.mojo/maven-metadata.xml from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer metadata org.codehaus.mojo/maven-metadata.xml from/to central (http://repo.maven.apache.org/maven2): Failed to transfer http://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml. Error code 501, HTTPS Required
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:22.717
+!MESSAGE Could not transfer metadata org.apache.maven.plugins/maven-metadata.xml from/to central (http://repo.maven.apache.org/maven2): Failed to transfer http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml. Error code 501, HTTPS Required
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:22.719
+!MESSAGE Could not transfer metadata org.codehaus.mojo/maven-metadata.xml from/to central (http://repo.maven.apache.org/maven2): Failed to transfer http://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml. Error code 501, HTTPS Required
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2020-12-22 10:15:22.720
+!MESSAGE Execution errororg.apache.maven.plugin.prefix.NoPluginFoundForPrefixException: No plugin found for prefix 'install' in the current project and in the plugin groups [org.apache.maven.plugins, org.codehaus.mojo] available from the repositories [local (C:\Users\25860\.m2\repository), central (http://repo.maven.apache.org/maven2)]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:22.776
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:22.780
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.3.1: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:22.784
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-deploy-plugin:2.7: Plugin org.apache.maven.plugins:maven-deploy-plugin:2.7 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-deploy-plugin:jar:2.7
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:22.788
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-site-plugin:3.0: Plugin org.apache.maven.plugins:maven-site-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-site-plugin:jar:3.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:22.792
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-antrun-plugin:1.3: Plugin org.apache.maven.plugins:maven-antrun-plugin:1.3 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-antrun-plugin:jar:1.3
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:22.796
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5: Plugin org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:22.800
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:2.1: Plugin org.apache.maven.plugins:maven-dependency-plugin:2.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-dependency-plugin:jar:2.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:22.803
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-release-plugin:2.0: Plugin org.apache.maven.plugins:maven-release-plugin:2.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-release-plugin:jar:2.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:22.821
+!MESSAGE Failure to transfer org.apache.maven.plugins/maven-metadata.xml from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins/maven-metadata.xml from/to central (http://repo.maven.apache.org/maven2): Failed to transfer http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml. Error code 501, HTTPS Required
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:22.837
+!MESSAGE Failure to transfer org.codehaus.mojo/maven-metadata.xml from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer metadata org.codehaus.mojo/maven-metadata.xml from/to central (http://repo.maven.apache.org/maven2): Failed to transfer http://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml. Error code 501, HTTPS Required
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:24.347
+!MESSAGE Could not transfer metadata org.apache.maven.plugins/maven-metadata.xml from/to central (http://repo.maven.apache.org/maven2): Failed to transfer http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml. Error code 501, HTTPS Required
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:24.349
+!MESSAGE Could not transfer metadata org.codehaus.mojo/maven-metadata.xml from/to central (http://repo.maven.apache.org/maven2): Failed to transfer http://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml. Error code 501, HTTPS Required
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2020-12-22 10:15:24.350
+!MESSAGE Execution errororg.apache.maven.plugin.prefix.NoPluginFoundForPrefixException: No plugin found for prefix 'install' in the current project and in the plugin groups [org.apache.maven.plugins, org.codehaus.mojo] available from the repositories [local (C:\Users\25860\.m2\repository), central (http://repo.maven.apache.org/maven2)]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:24.406
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:24.410
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.3.1: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:24.414
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-deploy-plugin:2.7: Plugin org.apache.maven.plugins:maven-deploy-plugin:2.7 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-deploy-plugin:jar:2.7
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:24.418
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-site-plugin:3.0: Plugin org.apache.maven.plugins:maven-site-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-site-plugin:jar:3.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:24.422
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-antrun-plugin:1.3: Plugin org.apache.maven.plugins:maven-antrun-plugin:1.3 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-antrun-plugin:jar:1.3
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:24.425
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5: Plugin org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:24.429
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:2.1: Plugin org.apache.maven.plugins:maven-dependency-plugin:2.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-dependency-plugin:jar:2.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:24.433
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-release-plugin:2.0: Plugin org.apache.maven.plugins:maven-release-plugin:2.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-release-plugin:jar:2.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:24.448
+!MESSAGE Failure to transfer org.apache.maven.plugins/maven-metadata.xml from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins/maven-metadata.xml from/to central (http://repo.maven.apache.org/maven2): Failed to transfer http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml. Error code 501, HTTPS Required
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-12-22 10:15:24.465
+!MESSAGE Failure to transfer org.codehaus.mojo/maven-metadata.xml from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer metadata org.codehaus.mojo/maven-metadata.xml from/to central (http://repo.maven.apache.org/maven2): Failed to transfer http://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml. Error code 501, HTTPS Required
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-12-22 10:15:28.926
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.genuitec.eclipse.maven.core.LocalMavenRepositoryImportsJob
